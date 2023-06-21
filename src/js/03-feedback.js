@@ -19,7 +19,7 @@ function onFormInput(evt) {
 
 function onFormSubmit(evt) {
     evt.preventDefault();
-    console.log('Відправити форму');
+    // console.log('Відправити форму');
     
     evt.currentTarget.reset();
   localStorage.removeItem('STORAGE_KEY');
@@ -27,7 +27,7 @@ function onFormSubmit(evt) {
 }
 function populateTextarea() {
   const savedMessage = JSON.parse(localStorage.getItem('STORAGE_KEY'));
-  const { email, message } = form.elements;
+  // const { email, message } = form.elements;
     if (savedMessage) {
       email.value = savedMessage.email || '';
       message.value = savedMessage.message || '';
