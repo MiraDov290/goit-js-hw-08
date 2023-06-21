@@ -18,7 +18,8 @@ function onFormInput(evt) {
 }
 
 function onFormSubmit(evt) {
-    evt.preventDefault();
+  evt.preventDefault();
+  
     // console.log('Відправити форму');
     
     evt.currentTarget.reset();
