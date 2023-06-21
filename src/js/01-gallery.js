@@ -1,6 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
 import "simplelightbox/dist/simple-lightbox.min.css";
-
 // Add imports above this linen
 import { galleryItems } from './gallery-items';
 // Change code below this line
