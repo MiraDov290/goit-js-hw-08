@@ -10,8 +10,7 @@ const player = new Player(iframe, {
   quality: '1080p',
 });
 
-const getCurrentTime = function (currentTime) {
-  const seconds = currentTime.seconds;
+const getCurrentTime = function ({seconds}) {
   localStorage.setItem(CURRENT_TIME_KEY, JSON.stringify(seconds));
 };
 
